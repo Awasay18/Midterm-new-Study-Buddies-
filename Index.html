@@ -210,9 +210,310 @@
     Featured Products
   </h5>
 
-      <!-- -----------------------------------Abdul Wasay's Working ends -->
+      
 
-      <!-- -----------------------------------Usaid's Working starts -->
+         .container {
+            width: calc(100% - 10rem);
+             margin: 0 auto;
+            padding: 5px;
+        }
+        .product {
+            display: inline-block;
+            width: 16rem;
+            height: 18rem;
+            margin: 1rem;
+            background-color: #fff;
+            border: solid gainsboro 1px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product h2 {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .product .price-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5px;
+        }
+        .product .cut-price {
+            text-decoration: line-through;
+            color: #888;
+            margin-right: 10px;
+        }
+        .product .discounted-price {
+            color: #000;
+            font-weight: bold;
+        }
+        .deal {
+            text-align: center;
+            margin-top: 40px;
+            background-color: #fff;
+            display: inline-block;
+             padding: 20px; 
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background-image: url("./assets/images/background\ image.webp");
+            height: 100vh;
+        }
+        .deal img {
+            width: 50%;
+            height: auto;
+        }
+        .deal h2 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .deal p {
+            font-size: 16px;
+            color: #888;
+        }
+        .deal .price {
+            font-size: 20px;
+            color: #000;
+            margin: 10px 0;
+        }
+        .timer {
+            font-size: 50px;
+            margin: 10px 0;
+            color: #82ae46;
+
+        }
+        .subheading {
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-family: "lora", Georgia, serif;
+            font-style: italic;
+            color: #82ae46;
+            text-align: center;
+            margin: 15px 0 10px;
+        }
+        .products-Container {
+            font-size: 40px;
+            font-weight: 600;
+            color: #000000;
+            font-family: "Poppins", Arial, sans-serif;
+            margin: 1.3rem 0 24px;
+            font-style: normal;
+        }
+        .tagline {
+            margin: 0 0 16px;
+            color: #808080;
+            font-family: "Poppins", Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            font-style: normal;
+        }
+.second-subheading{
+
+    font-size: 18px;
+            margin-bottom: 10px;
+            font-family: "lora", Georgia, serif;
+            font-style: italic;
+            color: #82ae46;
+            position: relative;
+           left: 20rem;
+           top: 10rem;
+
+}
+.container {
+            background-image: url(assets/images/background\ image.webp);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px;
+            background-color: #ffffff;
+            background-size: cover;
+          }
+    
+          .image-container {
+            flex: 1;
+            max-width: 45%;
+          }
+    
+          .image-container img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+          }
+    
+          .text-container {
+            flex: 1;
+            max-width: 50%;
+            padding-left: 20px;
+          }
+    
+          .small-text {
+            font-size: 1.3rem;
+            color: #8db260;
+            margin-bottom: 5px;
+            font-style: italic;
+            padding: 10px;
+            font-family: "Lora", Georgia, serif;
+          }
+    
+          .title {
+            font-size: 40px;
+            color: #333;
+            margin: 10px 0;
+          }
+    
+          .description {
+            font-size: 18px;
+            color: #777;
+            margin-bottom: 15px;
+          }
+    
+          .product-name {
+            font-size: 32px;
+            color: #8db260;
+            margin: 5px 0;
+            font-family: "Lora", Georgia, serif;
+            font-weight: lighter;
+            font-style: italic;
+            
+    
+          }
+    
+          .price {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+          }
+    
+          .discount {
+            color: #8db260;
+            font-weight: 500;
+          }
+    
+          .timer {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 20px;
+           
+          }
+    
+          .time-unit {
+            margin-right: 15px;
+            text-align: center;
+            color: #8db260;
+            border-right: solid gainsboro 2px;
+          }
+    
+          .number {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+          }
+    
+          .label {
+            font-size: 14px;
+            color: #777;
+          }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="subheading">
+            Featured Products
+            <h2 class="products-Container">
+                Our Products
+            </h2>
+            <p class="tagline">
+                Bringing Farm-Fresh Vegetables Straight to Your Table for a Healthier, Tastier Life
+            </p>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="product">
+                <img src="assets/images/Tomatoe.webp" alt="Tomato">
+                <h2>TOMATO</h2>
+                <div class="price-container">
+                    <p class="cut-price">$120.00</p>
+                    <p class="discounted-price">$100.00</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="assets/images/Brocolli.webp" alt="Broccoli">
+                <h2>BROCCOLI</h2>
+                <p>$120.00</p>
+            </div>
+            <div class="product">
+                <img src="assets/images/Carrots.webp" alt="Carrots">
+                <h2>CARROTS</h2>
+                <p>$120.00</p>
+            </div>
+            <div class="product">
+                <img src="assets/images/Fruit Juice.webp" alt="Fruit Juice">
+                <h2>FRUIT JUICE</h2>
+                <p>$120.00</p>
+            </div>
+            <div class="product">
+                <img src="assets/images/Bell Pepper.webp" alt="Bell Pepper">
+                <h2>BELL PEPPER</h2>
+                <div class="price-container">
+                    <p class="cut-price">$120.00</p>
+                    <p class="discounted-price">$90.00</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="assets/images/strawberry.webp" alt="Strawberry">
+                <h2>STRAWBERRY</h2>
+                <p>$120.00</p>
+            </div>
+            <div class="product">
+                <img src="assets/images/Green Beans.webp" alt="Green Beans">
+                <h2>GREEN BEANS</h2>
+                <p>$120.00</p>
+            </div>
+            <div class="product">
+                <img src="assets/images/Purple Cabbage.webp" alt="Purple Cabbage">
+                <h2>PURPLE CABBAGE</h2>
+                <p>$120.00</p>
+            </div>
+           
+            </div>
+        </div>
+       
+       
+        
+      <body>
+        <div class="container">
+          <div class="image-container"></div>
+          <div class="text-container">
+            <p class="small-text">Best Price For You</p>
+            <h1 class="title">Deal of the day</h1>
+            <p class="description">
+              Bringing Farm-Fresh Vegetables Straight to Your Table for a Healthier,
+              Tastier Life
+            </p>
+            <h2 class="product-name">Spinach</h2>
+            <p class="price">$10 now <span class="discount">$5 only</span></p>
+            <div class="timer">
+              <div class="time-unit">
+                <span class="number">-1692</span>
+                <span class="label">DAYS</span>
+              </div>
+              <div class="time-unit">
+                <span class="number">13</span>
+                <span class="label">HOURS</span>
+              </div>
+              <div class="time-unit">
+                <span class="number">21</span>
+                <span class="label">MINUTES</span>
+              </div>
+              <div class="time-unit">
+                <span class="number">17</span>
+                <span class="label">SECONDS</span>
+              </div>
+            </div>
+          </div>
+        </div>
 
     
   <!-- -----------------------------------Usaid's Working ends -->
